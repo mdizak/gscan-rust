@@ -160,6 +160,4 @@ fn save_results(hostname: &str, criteria: &String) {
     fh.write_all(line.as_bytes())
         .expect("Unable to write to output file");
 
-    // Close file
-    drop(fh);
 }
