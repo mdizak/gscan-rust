@@ -46,7 +46,7 @@ impl Args {
                 .takes_value(true)
                 .help("Seconds to timeout upon checking TCP connection.  Defaults to 3."))
             .arg(Arg::with_name("hostname")
-                .short('h')
+                .short('d')
                 .long("hostname")
                 .takes_value(true)
                 .help("Value of the Host: field to include in each HTTP request."))
